@@ -16,11 +16,12 @@ VALUES("Barista", 15.70, 1),
 
 
 INSERT INTO employee(first_name,last_name,role_id, manager_id)
-VALUES("Catty", "KitKats", 5 ,3),
+VALUES
+("Catty", "KitKats", 5 ,NULL),
 ("Sniff", "Mcwhiskers", 4, NULL ),
-("Neat", "Kibbles", 6, NULL)
+("Neat", "Kibbles", 6, NULL),
 ("Beady", "Eyes", 5, 3),
 ("Licky", "Lips", 2, NULL),
 ("Creamy", "Darkroast", 1, 5),
-("Sudder", "Tugs",3, NULL)
+("Sudder", "Tugs",3, NULL),
 ("Pancho", "Pancake", 3, NULL);
