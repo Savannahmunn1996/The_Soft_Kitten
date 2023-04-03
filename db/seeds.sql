@@ -20,7 +20,7 @@ VALUES("Catty", "KitKats", 5 ,3),
 ("Sniff", "Mcwhiskers", 4 ),
 ("Neat", "Kibbles", 6)
 ("Beady", "Eyes", 5, 3),
-("licky", "Lips", 2),
+("Licky", "Lips", 2),
 ("Creamy", "Darkroast", 1, 5),
 ("Sudder", "Tugs",3)
-("Pancho", "Pancake", 3)
+("Pancho", "Pancake", 3);
