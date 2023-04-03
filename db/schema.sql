@@ -5,7 +5,7 @@ USE The_Soft_Kitten;
 
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30),
+  name VARCHAR(30)
 
 );
 
@@ -28,6 +28,6 @@ id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   FOREIGN KEY (role_id)
   REFERENCES role(id),
   manager_id INT,
-  FOREIGN KEY (employee_id)
+  FOREIGN KEY (manager_id)
   REFERENCES employee(id)
 )
