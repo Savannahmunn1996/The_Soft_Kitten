@@ -1,6 +1,11 @@
 # The_Soft_Kitten
 
 
+## Description
+This is a command line application that allows you to manipulate departments, employees, roles in a fake Cat Cafe database!
+
+
+
 ## Criteria
 GIVEN a command-line application that accepts user input
 WHEN I start the application
@@ -19,3 +24,15 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+
+## Usage
+Type node index into command line
+
+
+## installation
+clone this repository to your local machine!
+
+
+## Contact
+Savannah Mercedes is a Software developer with a passion for education and technology. Email: savannahmunn1996@gmail.com
