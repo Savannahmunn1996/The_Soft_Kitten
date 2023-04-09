@@ -132,16 +132,20 @@ function firstQuestion() {
       {
         type: "list",
         name: "firstChoices",
-        message: "Make your first choice: ",
+        message: "What would you like to do? ",
         choices: [
-          { name: "View all departments", value: "fetchDepartments" },
+          { name: "View all departments", value: "viewDepartments" },
           { name: "View all roles", value: "viewRoles" },
           { name: "View all employees", value: "viewEmployees" },
+          {name:"Add a department", value:"addDepartment"},
+          {name:"Add a role", value:"addRole"}, 
+          {name:"Add an employee", value:"addEmployee"}, 
+        
         ],
       },
-      {
-        
-      }
+
+
+      
     ])
     .then((answers) => {
       switch (answers.firstChoices) {
@@ -153,10 +157,12 @@ function firstQuestion() {
         case "viewRoles":
           console.log("fetching roles...");
           getRoleInfo();
+          firstQuestion();
           break;
         case "viewEmployees":
           console.log("fetching employees...");
           getEmployeeInfo();
+          firstQuestion();
           break;
         default:
           console.log("invalid option");
